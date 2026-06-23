@@ -31,7 +31,7 @@ def main():
               print("please provide a valid option")
 
 
-import csv
+
 
 def view_students():
     try:
