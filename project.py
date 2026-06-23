@@ -98,7 +98,7 @@ def get_avarage():
             grade = int(grade)
             items.append(grade)
         average = statistics.fmean(items)
-        print(f"The avarage mark of all students is {average:2f}")
+        print(f"The avarage mark of all students is {average:.2f}")
 
 
 def get_name():
